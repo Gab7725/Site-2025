@@ -25,23 +25,22 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-/* Estilizando o título principal */
+
 h1 {
     font-size: 2.2em;
-    color: #2c3e50; /* Cor de título */
+    color: #2c3e50; 
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
 }
 
-/* Estilizando o subtítulo */
 h2 {
     font-size: 1.8em;
-    color: #2980b9; /* Cor do subtítulo */
+    color: #2980b9; 
     margin-bottom: 15px;
 }
 
-/* Estilizando os sub-títulos */
+
 h3 {
     font-size: 1.5em;
     color: #2c3e50;
@@ -50,26 +49,26 @@ h3 {
     font-weight: bold;
 }
 
-/* Estilizando os parágrafos */
+
 p {
     font-size: 1em;
     margin-bottom: 15px;
-    text-align: justify; /* Justifica o texto */
+    text-align: justify;
     line-height: 1.8;
 }
 
-/* Adicionando uma linha de separação entre os parágrafos */
+
 p + p {
     border-top: 1px solid #e0e0e0;
     padding-top: 10px;
 }
 
-/* Adicionando um estilo para os títulos de seção */
+
 strong {
-    color: #004979; /* Cor para destacar texto em negrito */
+    color: #004979; 
 }
 
-/* Responsividade: Ajustando o conteúdo em telas pequenas */
+
 @media (max-width: 768px) {
     body {
         display: flex;
