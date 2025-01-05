@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../Site2025/img/seeeeeeeelic.jpg);
+    color: #070707;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+header{
+        
+    padding: 10px   20px;
+}
+.logo{
+height: 150px;
+margin-top: 20px;
+padding: 20px;
+
+
+}
+.header-container{
+    
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0   auto;
+
+
+}
+#selic{
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+h1{
+    color: rgb(255, 3, 3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 4px 5px #eee; 
+    font-size: 22px ;
+}
+strong{
+    color: #070707;
+}
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 15px;
+}
+@media (max-width: 600px) {
+    #selic {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+nav ul.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul.nav-links li a:hover {
+    color: rgb(255, 3, 3); /* Cor de destaque ao passar o mouse */
+}
+video{
+    
+        width: 80%;
+        max-width: 390px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px auto;
+        display: block
+}

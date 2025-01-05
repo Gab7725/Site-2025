@@ -1,0 +1,147 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b5f4b2;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #bbdef0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container .logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* Parágrafo de introdução */
+p {
+    font-size: 1rem;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* Seções de subtítulos */
+h2 {
+    font-size: 2rem;
+    margin: 40px auto;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Estilo das listas e autores */
+h3 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    width: 90%;
+    max-width: 300px; /* Limita o tamanho das imagens */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.09); /* Efeito de zoom nas imagens */
+}
+
+
+strong {
+    font-weight: bold;
+    color: #0073e6;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.author-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.author-container > div {
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    p, li {
+        padding: 0 10px;
+    }
+}

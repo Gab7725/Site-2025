@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../Site2025/img/fundo.jpg);
+    color: #070707;
+    line-height: 1.6;
+    padding: 20px;
+ 
+}
+
+
+#infla {
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilizando o título principal */
+h1 {
+    font-size: 2.2em;
+    color: #2c3e50; /* Cor de título */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilizando o subtítulo */
+h2 {
+    font-size: 1.8em;
+    color: #2980b9; /* Cor do subtítulo */
+    margin-bottom: 15px;
+}
+
+/* Estilizando os sub-títulos */
+h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilizando os parágrafos */
+p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.8;
+}
+
+/* Adicionando uma linha de separação entre os parágrafos */
+p + p {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+/* Adicionando um estilo para os títulos de seção */
+strong {
+    color: #004979; /* Cor para destacar texto em negrito */
+}
+
+/* Responsividade: Ajustando o conteúdo em telas pequenas */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #infla {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
+video{
+    width: 80%;
+    max-width: 390px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: block;
+
+    
+
+
+}
+.logo{
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}
+

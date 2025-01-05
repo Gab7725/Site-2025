@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(../Site2025/img/fundo.ipca.jpg);
+    color: #ff0000;
+    padding: 20px;
+}
+
+#ipca {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(46, 4, 231, 0.1);
+    border-radius: 8px;
+}   
+
+h1 {
+    font-size: 2em;
+    color: #e70000;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #000000;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f4f4f4;
+}
+
+table tr:hover td {
+    background-color: #e1e1e1;
+}
+
+table td {
+    font-size: 1.1em;
+}
+
+/* Estilo de links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+video{
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: block;
+}
+@media (max-width: 600px) {
+    #ipca {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+.logo{
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}

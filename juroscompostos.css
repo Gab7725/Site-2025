@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../Site2025/img/fundo.juros.jpg);
+    color: #070707;
+    line-height: 1.6;
+    padding: 20px;
+    
+
+}
+header{
+    padding: 10px 20px;
+}
+.logo{
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}   
+#juros{
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: #070707;
+}
+h1{
+    color: red;
+}
+h2{
+    color: red  ;
+}
+#colorir{
+    color: red  ;
+}
+video{
+    
+    width: 80%;
+    max-width: 390px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: block
+}
+@media (max-width: 600px) {
+    #selic {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(186, 248, 124);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(186, 248, 124);
+    padding: 10px   20px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0   auto;
+
+}
+.logotipo{
+    height: 100px;
+
+}
+nav .menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav .menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav .menu li a:hover{
+    color: rgb(50, 6, 224);
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#submenu h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: 186, 248, 124;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px  10px rgba(0,0,0,0);
+    max-width: 1200px;
+    margin: 40px    auto;
+    text-align: center;
+}
+#submenu p {
+    color: #555;
+    font-size: 1.1rem;
+    margin: 25px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu1{
+    background-color: rgb(186, 248, 124);
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+
+}
+/* Cores principais */
+:root {
+    --azul-escuro: #003366; 
+    --azul-claro: #66a3cc; 
+    --cor-link: #007bff; /* Azul para links */
+    --cor-link-hover: #0056b3; /* Azul escuro para hover nos links */
+    --fundo-card: #f4f4f4; /* Cor de fundo dos cards */
+    --cor-texto: #333; 
+    --cor-texto-secundario: #555; 
+}
+
+
+header {
+    background-color: var(--azul-escuro);
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logotipo {
+    max-width: 150px;
+}
+
+header nav ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul.menu li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+header nav ul.menu li a:hover {
+    color: var(--azul-claro);
+}
+
+/* Estilo para os cards */
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.card article {
+    background-color: var(--fundo-card); 
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.card article:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.card article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px; 
+}
+
+.card article h3 {
+    font-size: 1.4rem;
+    color: var(--azul-escuro); /* Usando azul escuro para o título */
+    margin-top: 10px;
+}
+
+.card article p {
+    font-size: 1rem;
+    color: var(--cor-texto-secundario); 
+}
+
+.card article a {
+    text-decoration: none;
+    color: var(--cor-link); /* Azul claro para links */
+    font-weight: bold;
+}
+
+.card article a:hover {
+    color: var(--cor-link-hover); /* Azul escuro ao passar o mouse */
+}
+/* Estilo para o rodapé */
+footer {
+    background-color: #003366; /* Azul escuro para o rodapé */
+    color: white; /* Texto branco */
+    padding: 40px 20px; /* Espaçamento dentro do rodapé */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #66a3cc; /* Azul claro para os links */
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #fff; /* Cor branca ao passar o mouse */
+}
+
+/* Estilo do formulário de e-mail */
+footer form {
+    margin-top: 20px;
+}
+
+footer form label {
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+}
+
+footer form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #66a3cc; /* Borda azul claro */
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+footer form input[type="email"]:focus {
+    border-color: #007bff; /* Azul escuro quando o campo é focado */
+    outline: none;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background-color: #66a3cc; /* Azul claro para o botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #007bff; /* Azul escuro ao passar o mouse */
+}
+footer nav ul li a {
+    color: #66a3cc; /* Azul claro */
+    text-decoration: none;
+}
+
+footer nav ul li a i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-size: 18px; /* Tamanho do ícone */
+}
+
+footer nav ul li a:hover {
+    color: #004080; /* Azul escuro ao passar o mouse */
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    p, li {
+        padding: 0 10px;
+    }
+}
